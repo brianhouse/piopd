@@ -1,0 +1,19 @@
+#N canvas 521 165 510 356 12;
+#X obj 144 148 counter 8;
+#X floatatom 124 197 5 0 0 0 - - -;
+#X obj 144 95 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 193 95 reset;
+#X text 15 220 Current step \, 0 to N-1;
+#X text 14 30 Count bangs from 0 to N-1 \, then repeat;
+#X text 240 94 Resets to zero on next bang;
+#X text 221 149 <= creation argument sets N;
+#X text 216 221 Bang on start of new cycle;
+#X obj 217 201 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 370 293 Brian House 2021;
+#X text 369 307 L&C ART 327;
+#X connect 0 0 1 0;
+#X connect 0 1 9 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;

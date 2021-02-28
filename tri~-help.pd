@@ -1,0 +1,13 @@
+#N canvas 0 25 425 386 12;
+#X obj 101 119 scope~;
+#X text 125 59 v reset phase;
+#X text 13 59 change freq v;
+#X text 122 16 Create a triangle wave oscillator;
+#X obj 101 79 tri~;
+#X msg 22 154 440;
+#X obj 22 129 loadbang;
+#X text 282 327 Brian House 2021;
+#X text 281 341 L&C ART 327;
+#X connect 4 0 0 0;
+#X connect 5 0 4 0;
+#X connect 6 0 5 0;

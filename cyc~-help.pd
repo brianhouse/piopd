@@ -1,0 +1,13 @@
+#N canvas 30 80 441 392 12;
+#X obj 113 143 scope~;
+#X text 136 83 v reset phase;
+#X text 25 83 change freq v;
+#X text 50 32 Create a sine wave oscillator from 0 to 1;
+#X obj 113 103 cyc~;
+#X msg 22 154 440;
+#X obj 22 129 loadbang;
+#X text 305 341 Brian House 2021;
+#X text 304 355 L&C ART 327;
+#X connect 4 0 0 0;
+#X connect 5 0 4 0;
+#X connect 6 0 5 0;

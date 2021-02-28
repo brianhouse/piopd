@@ -1,0 +1,9 @@
+#N canvas 488 210 506 263 12;
+#X obj 68 86 inlet~;
+#X obj 68 174 outlet~;
+#X obj 68 127 expr~ ((($v1 - \$1) / (\$2 - \$1)) * (\$4 - \$3)) + \$3
+;
+#X text 378 216 Brian House 2021;
+#X text 377 230 L&C ART 327;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;

@@ -1,0 +1,18 @@
+#N canvas 175 101 312 279 12;
+#X obj 139 18 inlet;
+#X obj 86 174 outlet~;
+#X obj 86 70 -~ 0.5;
+#X obj 86 96 abs~;
+#X obj 86 122 *~ 4;
+#X obj 86 148 -~ 1;
+#X obj 86 18 inlet~;
+#X obj 86 44 phasor~;
+#X text 167 220 Brian House 2021;
+#X text 166 234 L&C ART 327;
+#X connect 0 0 7 1;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 1 0;
+#X connect 6 0 7 0;
+#X connect 7 0 2 0;
