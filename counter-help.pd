@@ -1,4 +1,4 @@
-#N canvas 521 165 510 356 12;
+#N canvas 454 25 517 537 12;
 #X obj 144 148 counter 8;
 #X floatatom 124 197 5 0 0 0 - - -;
 #X obj 144 95 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -11,9 +11,22 @@
 #X text 216 221 Bang on start of new cycle;
 #X obj 217 201 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 370 293 Brian House 2021;
-#X text 369 307 L&C ART 327;
+#X text 379 481 Brian House 2021;
+#X text 378 495 L&C ART 327;
+#X obj 119 354 counter 3;
+#X floatatom 119 408 5 0 0 0 - - -;
+#X floatatom 179 437 5 0 0 0 - - -;
+#X obj 119 310 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 31 407 step number;
+#X text 220 438 measure number;
+#X obj 179 392 counter 30;
+#X text 64 282 try chaining counters together:;
 #X connect 0 0 1 0;
 #X connect 0 1 9 0;
 #X connect 2 0 0 0;
 #X connect 3 0 0 0;
+#X connect 12 0 13 0;
+#X connect 12 1 18 0;
+#X connect 15 0 12 0;
+#X connect 18 0 14 0;
