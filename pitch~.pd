@@ -1,0 +1,14 @@
+#N canvas 766 283 356 288 12;
+#X obj 63 59 fiddle~;
+#X obj 63 89 mtof;
+#X msg 62 118 \$1 5;
+#X text 155 195 Brian House 2021;
+#X text 154 209 L&C ART 327;
+#X obj 63 18 inlet~;
+#X obj 62 169 outlet;
+#X obj 62 143 line;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 7 0;
+#X connect 5 0 0 0;
+#X connect 7 0 6 0;
