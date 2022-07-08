@@ -22,10 +22,10 @@
 #X obj 421 155 f \$2;
 #X obj 459 155 f \$3;
 #X obj 51 44 t b b;
-#X msg 181 309 0 1 \, 1 \$2 0 \, \$5 \$3 \$2 \, 0 \$6 \$7;
 #X text 344 333 (yes \, it's 1ms off);
 #X text 464 436 Brian House 2021;
 #X text 463 450 L&C ART 327;
+#X msg 181 309 0 1 \, 1 \$2 0 \, \$5 \$3 \$2 \, 0 \$6 \$7;
 #X connect 1 0 0 0;
 #X connect 2 0 18 1;
 #X connect 2 0 19 1;
@@ -42,7 +42,7 @@
 #X connect 16 1 14 1;
 #X connect 17 0 15 0;
 #X connect 17 1 15 1;
-#X connect 18 0 23 0;
+#X connect 18 0 26 0;
 #X connect 19 0 14 0;
 #X connect 20 0 16 0;
 #X connect 21 0 17 0;
@@ -50,4 +50,4 @@
 #X connect 22 1 21 0;
 #X connect 22 1 20 0;
 #X connect 22 1 19 0;
-#X connect 23 0 1 0;
+#X connect 26 0 1 0;
