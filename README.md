@@ -1,3 +1,3 @@
 # piopd
 
-A series of basic Pure Data objects written in Pd-vanilla for Lewis & Clark's Sound Art class.
+A series of basic Pure Data objects written in Pd-vanilla for Amherst College's Sound Art class.
