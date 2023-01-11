@@ -12,6 +12,8 @@ peak~ and pitch~ \, level~ outputs a signal between 0 and 1 \, corresponding
 to -99 dB and 0 dB on your input meter. This way \, you can hook level~
 up wherever you might use an LFO or envelope \, multiplying it with
 an audio signal to create an amplitude envelope;
+#X text 408 434 Brian House 2021;
+#X text 407 448 AC ARHA 292;
 #X connect 0 0 2 0;
 #X connect 2 0 3 1;
 #X connect 3 0 1 0;

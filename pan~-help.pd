@@ -21,7 +21,7 @@
 #X text 518 29 ...or with a control value between -1 and 1;
 #X obj 614 59 loadbang;
 #X text 771 379 Brian House 2021;
-#X text 770 393 L&C ART 327;
+#X text 770 393 AC ARHA 292;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
 #X connect 2 1 0 1;

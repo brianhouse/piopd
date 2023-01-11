@@ -186,7 +186,7 @@ need to convert the output to dB with rmstodb and also subtract by
 #X obj 247 303 outlet~;
 #X obj 325 304 outlet~;
 #X text 311 372 Brian House 2021;
-#X text 310 386 L&C ART 327;
+#X text 310 386 AC ARHA 292;
 #X obj 280 162 adc~;
 #X obj 270 218 *~;
 #X obj 302 218 *~;

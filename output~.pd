@@ -204,7 +204,7 @@ need to convert the output to dB with rmstodb and also subtract by
 #X text 123 245 vol;
 #X msg 489 328 open -bytes 3 ../\$1.wav;
 #X text 531 368 Brian House 2021;
-#X text 530 382 L&C ART 327;
+#X text 530 382 AC ARHA 292;
 #X connect 0 0 2 1;
 #X connect 0 0 3 1;
 #X connect 2 0 16 0;

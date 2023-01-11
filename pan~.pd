@@ -11,7 +11,7 @@
 #X obj 199 173 cos~;
 #X obj 117 33 inlet~;
 #X text 260 301 Brian House 2021;
-#X text 259 315 L&C ART 327;
+#X text 259 315 AC ARHA 292;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;
 #X connect 2 0 0 0;

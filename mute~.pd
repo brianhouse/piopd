@@ -9,6 +9,8 @@
 #X obj 94 64 inlet~;
 #X obj 94 145 *~ 1;
 #X obj 94 182 outlet~;
+#X text 306 256 Brian House 2021;
+#X text 305 270 AC ARHA 292;
 #X connect 0 0 3 0;
 #X connect 2 0 4 0;
 #X connect 3 0 1 0;

@@ -1,6 +1,6 @@
 #N canvas -255 -567 288 300 12;
 #X text 143 233 Brian House 2021;
-#X text 142 247 L&C ART 327;
+#X text 142 247 AC ARHA 292;
 #X obj 49 102 line;
 #X msg 49 77 \$1 50;
 #X obj 49 48 inlet;

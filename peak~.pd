@@ -1,7 +1,7 @@
 #N canvas 680 25 276 359 12;
 #X obj 36 24 inlet~;
 #X text 120 257 Brian House 2021;
-#X text 119 271 L&C ART 327;
+#X text 119 271 AC ARHA 292;
 #X obj 35 220 bonk~;
 #X msg 42 188 thresh 0 \$1;
 #X msg 52 129 40;

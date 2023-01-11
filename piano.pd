@@ -31,7 +31,7 @@
 #X obj 246 280 * 12;
 #X obj 246 304 t b f;
 #X text 468 349 Brian House 2021;
-#X text 467 363 L&C ART 327;
+#X text 467 363 AC ARHA 292;
 #X obj 249 368 outlet;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;

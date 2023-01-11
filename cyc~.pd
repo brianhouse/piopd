@@ -6,7 +6,7 @@
 #X obj 52 116 /~ 2;
 #X obj 52 58 osc~;
 #X text 151 194 Brian House 2021;
-#X text 150 208 L&C ART 327;
+#X text 150 208 AC ARHA 292;
 #X connect 0 0 5 1;
 #X connect 2 0 5 0;
 #X connect 3 0 4 0;

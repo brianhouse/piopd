@@ -6,7 +6,7 @@
 #X obj 84 21 inlet~;
 #X obj 84 56 phasor~;
 #X text 169 194 Brian House 2021;
-#X text 168 208 L&C ART 327;
+#X text 168 208 AC ARHA 292;
 #X connect 0 0 5 1;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;

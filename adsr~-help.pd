@@ -22,7 +22,7 @@
 #X msg 123 179 220;
 #X obj 123 154 loadbang;
 #X text 462 461 Brian House 2021;
-#X text 461 475 L&C ART 327;
+#X text 461 475 AC ARHA 292;
 #X connect 0 0 3 0;
 #X connect 2 0 1 0;
 #X connect 2 0 16 0;
